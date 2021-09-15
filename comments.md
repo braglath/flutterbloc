@@ -7,6 +7,7 @@ _getter gives access to some property within that class_
 
 - sample code
   Function(String) get changeEmail => emailController.sink.add;
+
   Stream<String> get emailchange =>emailController.stream;
 
 # **TextField**
