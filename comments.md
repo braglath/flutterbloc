@@ -11,6 +11,10 @@ _getter gives access to some property within that class_
 
   Stream<String> get emailchange =>emailController.stream;
 
+**Public and Private field**
+_weather or not we can see the property in some other field or not_
+_prefix with underscore(\_) at the start to mark the property as private_
+
 # **TextField**
 
 [TextFieldCladd](https://api.flutter.dev/flutter/material/TextField-class.html)
